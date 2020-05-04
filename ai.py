@@ -1,7 +1,10 @@
-# AI for Self Driving Car
+#Artifical Inteligence - Deep Q Learning - Self Driving Car
+"""
+Created on Tue April 28 13:36:21 2020
+@author: Mitchell Ciupak
+"""
 
-# Importing the libraries
-
+#Import
 import numpy as np
 import random
 import os
@@ -61,7 +64,7 @@ class Dqn():
     
     def select_action(self, state):
         probs = F.softmax(self.model(Variable(state, volatile = True))*100) # T=100
-        action = probs.multinomial()
+        action = probs.multinomial(1)
         return action.data[0,0]
     
     def learn(self, batch_state, batch_next_state, batch_reward, batch_action):

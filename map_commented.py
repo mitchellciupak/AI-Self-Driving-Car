@@ -1,12 +1,16 @@
-# Self Driving Car
+#Artifical Inteligence - Deep Q Learning - Self Driving Car
+"""
+Created on Tue April 28 13:36:21 2020
+@author: Mitchell Ciupak
+"""
 
-# Importing the libraries
+#Import
+## Importing libraries
 import numpy as np
 from random import random, randint
 import matplotlib.pyplot as plt
 import time
-
-# Importing the Kivy packages
+##Importing Kivy packages (Map)
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.uix.button import Button
