@@ -1,4 +1,4 @@
-# side_AISelfDrivingCar
+AI SelfDrivingCar
 Implsmenting Deep Q Learning to train a virutal self driving car
 
 ## Resources/Libraries
