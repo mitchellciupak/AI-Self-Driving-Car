@@ -107,4 +107,4 @@ class Dqn():
             self.optimizer.load_state_dict(checkpoint['optimizer'])
             print("done !")
         else:
-            print("no checkpoint found...")
+            print("no checkpoint found")
