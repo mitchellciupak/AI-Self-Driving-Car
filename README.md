@@ -7,6 +7,7 @@ Implamenting Deep Q Learning to train a virutal self driving car
 3. Navigate to ./map.py and run
 4. Press Load to 'load' a map
 5. Draw obsacles by clicking
+![](./Resources/Images/demo_boundaries.JPG)
 
 ## Resources/Libraries
 ### numpy
